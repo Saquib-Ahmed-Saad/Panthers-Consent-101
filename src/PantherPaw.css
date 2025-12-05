@@ -1,0 +1,12 @@
+.panther-paw {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  animation: pawWalk 2.5s linear;
+}
+@keyframes pawWalk {
+  0% { opacity: 0; transform: scale(0.5) rotate(-20deg); }
+  10% { opacity: 1; transform: scale(1) rotate(0deg); }
+  90% { opacity: 1; transform: scale(1) rotate(0deg); }
+  100% { opacity: 0; transform: scale(0.5) rotate(20deg); }
+}
